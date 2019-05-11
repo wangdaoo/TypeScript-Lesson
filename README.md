@@ -151,3 +151,33 @@ npm install --save request
 - 定义可省略参数的函数
 - 定义符号: ?
 
+## 参数72变
+
+- 定义参数个数不定的函数
+- 定义符号:  `...`
+
+## 类的定义与使用
+
+- 类的定义
+- 类的使用
+
+### 类的定义(模板)
+
+```ts
+class name {
+	property_name1: type
+	property_name2: type
+	// ...
+
+	// 构造函数
+	constructor (param1: type, param2: type, ...) {
+		// 构造函数内容
+	}
+
+	// 类方法
+	method1 (param1: type, param2: type, ...):return {
+		// 函数方法
+	}
+	// method2, method3, ...
+}
+```
