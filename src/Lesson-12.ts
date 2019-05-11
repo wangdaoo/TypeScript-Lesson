@@ -1,6 +1,6 @@
 // !可省略的参数
 
-// ?通过给 name 后面加上 ? , 达到可给函数传空的效果
+// ?通过给 name 后面加上 ? , 达到可给参数传空的效果
 // function sayHello(name?: string): string {
 // 	if (name === undefined) {
 // 		return "Hello Mars!"
@@ -9,7 +9,7 @@
 // 	}
 // }
 
-// ?通过函数加上默认值,达到传空的目的
+// ?通过参数加上默认值,达到传空的目的
 function sayHello(name: string = 'Mars'): string {
 	return "Hello " + name + "!"
 }
