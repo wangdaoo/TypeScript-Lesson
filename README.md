@@ -9,3 +9,18 @@
 `TypeScript`支持为现存`JavaScript`库添加类型信息的定义文件，方便其他程序像使用静态类型的值一样使用现有库中的值。当前有第三方提供常用库如`jQuery`、`MongoDB`、`Node.js`和`D3.js`的定义文件。
 
 `TypeScript`编译器本身也是用`TypeScript`编写，并被转译为`JavaScript`，以`Apache` License 2发布。
+
+## ts 变量类型
+
+- number: 数值类型
+- string: 字符串
+- boolean: 布尔类型
+- symbol: 符号类型，标识唯一对象
+- any: 任意类型
+- object: 对象类型（数组，元组，类，接口，函数等）
+
+## var 和 let 的区别
+
+- 限定变量的作用范围
+- 防止变量被重复定义
+
