@@ -181,3 +181,11 @@ class name {
 	// method2, method3, ...
 }
 ```
+
+## 类的访问限制
+
+- 类的访问修饰符
+  - public: 共有访问
+  - protected: 本类和子类访问
+  - private: 本类访问
+
