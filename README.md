@@ -89,3 +89,17 @@ enum name {
 ```ts
 let data: type1|type2|type3| ...
 ```
+
+## null 空检查
+
+空检查用于代码编译时对程序内的变量做 null 空检查，避免业务级别的错误
+
+- null 赋值代码
+- tsc 和 tscconfig.json的用法
+
+```ts
+let data1: string = undefined
+let data2: string = null
+let data3: string = ''
+data3 = null
+```
