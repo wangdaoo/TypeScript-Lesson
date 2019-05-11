@@ -2,19 +2,19 @@
 
 class Person {
 	name: string
-	sex: boolean
+	sex: string
 	age: number
 
-	constructor(name: string, sex: boolean, age: number) {
+	constructor(name: string, sex: string, age: number) {
 		this.name = name
 		this.sex = sex
 		this.age = age
 	}
 
 	syaHello() {
-		console.log(`${this.name}, 你好!`)
+		console.log(`${this.name}, 你好!` + `你是个真${this.sex}人`)
 	}
 }
 
-const mars = new Person('帆哥', true, 23);
+const mars = new Person('Mars Wong', '男', 23);
 mars.syaHello()
