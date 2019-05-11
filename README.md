@@ -103,3 +103,41 @@ let data2: string = null
 let data3: string = ''
 data3 = null
 ```
+
+## 第三方库的使用
+
+- node 库准备
+- 类型定义文件(tsd)导入
+- ts 编码使用 js 第三方库
+
+### typescript的使用方法
+
+tsd: 描述node第三方库,专门为ts使用的库文件
+
+1. 找到 tsd 文件
+2. 导入 tsd 文件
+3. 编写代码
+4. 编译运行
+
+调用第三方库文件
+
+[TS库文件: https://microsoft.github.io/TypeSearch/](https://microsoft.github.io/TypeSearch/)
+
+例如:
+
+导入 `request`
+
+```js
+npm init
+// 初始化库文件
+
+npm install --save request
+导入 request 文件
+```
+
+**注意了**
+
+在 `TS` 中导入第三方库的时候,并不是说只需要导入 ts 提供的第三方库文件就行! 必须要导入相对应的第三方库才可以!
+
+而且, 在执行的时候,要将执行的 `js` 文件放在导入库的项目中(*就是有 package.json 和 node_modules 的那个项目中*)
+
