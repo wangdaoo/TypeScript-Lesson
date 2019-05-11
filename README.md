@@ -2,7 +2,7 @@
 
 目前的`TypeScript`是越来越火热了！ 作为程序员，我们一定要跟上时代的脚步(哼，是很累)
 
-`TypeScript`是一种由微软开发的自由和开源的编程语言。它是`JavaScript`的一个严格超集，并添加了可选的静态类型和基于类的面向对象编程。C#的首席架构师以及Delphi和Turbo Pascal的创始人安德斯·海尔斯伯格参与了`TypeScript`的开发。[4][5][6][7]
+`TypeScript`是一种由微软开发的自由和开源的编程语言。它是`JavaScript`的一个严格超集，并添加了可选的静态类型和基于类的面向对象编程。C# 的首席架构师以及 Delphi和 Turbo Pascal的创始人安德斯·海尔斯伯格参与了`TypeScript`的开发。[4][5][6][7]
 
 `TypeScript`设计目标是开发大型应用，然后转译成JavaScript。[8]由于`TypeScript`是JavaScript的严格超集，任何现有的`JavaScript`程序都是合法的`TypeScript`程序。
 
@@ -95,7 +95,7 @@ let data: type1|type2|type3| ...
 空检查用于代码编译时对程序内的变量做 null 空检查，避免业务级别的错误
 
 - null 赋值代码
-- tsc 和 tscconfig.json的用法
+- tsc 和 tsconfig.json的用法
 
 ```ts
 let data1: string = undefined
