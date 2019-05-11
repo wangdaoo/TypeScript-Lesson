@@ -141,3 +141,8 @@ npm install --save request
 
 而且, 在执行的时候,要将执行的 `js` 文件放在导入库的项目中(*就是有 package.json 和 node_modules 的那个项目中*)
 
+## 箭头函数
+
+- 箭头函数的定义
+- 箭头函数的使用
+
