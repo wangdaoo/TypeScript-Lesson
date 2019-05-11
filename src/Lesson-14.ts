@@ -12,7 +12,7 @@ class Person {
 	}
 
 	syaHello() {
-		console.log(`${this.name}, 你好!` + `你是个真${this.sex}人`)
+		console.log(`${this.name}, 你好!` + `你是个真${this.sex}人` + `${this.age}岁,真是大好年华.千万别辜负!!!`)
 	}
 }
 
